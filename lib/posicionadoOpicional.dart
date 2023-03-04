@@ -5,8 +5,7 @@ void funcaoParametroPosicionadoOpcional(String msg, [String sujeito = "Nameless 
 
 main() {
   exemploParametroNomeadoOpcional("Olá viajante!");
-  exemploParametroNomeadoOpcional("Olá undead!",
-      sujeito: "Crestfallen Warrior");
+  exemploParametroNomeadoOpcional("Olá undead!", sujeito: "Crestfallen Warrior");
 }
 
 void exemploParametroNomeadoOpcional(String msg, {String sujeito = "Joile"}) {
