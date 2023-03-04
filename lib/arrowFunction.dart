@@ -1,0 +1,1 @@
+show() => print('Hello world');
